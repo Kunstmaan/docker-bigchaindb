@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+    bigchaindb:
+        build: ./
+        stdin_open: true
+        tty: true
