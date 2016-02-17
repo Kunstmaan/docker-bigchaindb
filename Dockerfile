@@ -22,4 +22,8 @@ ADD ./bigchaindb.rethink.conf /etc/rethinkdb/instances.d/bigchaindb.rethink.conf
 ADD ./bigchaindb /root/.bigchaindb
 ADD ./runservices.sh /root/runservices.sh
 
+EXPOSE 8080
+EXPOSE 28015
+EXPOSE 29015
+
 CMD ["/bin/bash", "-x", "/root/runservices.sh"]

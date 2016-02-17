@@ -3,5 +3,13 @@ version: '2'
 services:
     bigchaindb:
         build: ./
+        image: kunstmaan/bigchaindb
         stdin_open: true
         tty: true
+        ports:
+            - "8080:8080"
+            - "28015:28015"
+            - "29015:29015"
+        environment:
+            VIRTUAL_HOST: bigchaindb.docker
+            VIRTUAL_PORT: 28015
