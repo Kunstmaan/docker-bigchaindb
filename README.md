@@ -4,8 +4,7 @@ This is the repository for the kunstmaan/bigchaindb docker image.
 
 ## Important!
 
-* Latest version in PIP does not build until this PR is merged and released: https://github.com/bigchaindb/bigchaindb/pull/162
-* Latest development version uses a fork with that same PR applied
+* Latest version in PIP does not build until a new version with this PR is released: https://github.com/bigchaindb/bigchaindb/pull/162
 
 ## Images
 
