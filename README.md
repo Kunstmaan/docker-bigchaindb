@@ -4,7 +4,8 @@ This is the repository for the kunstmaan/bigchaindb docker image.
 
 ## Images
 
-* [kunstmaan/bigchaindb](https://hub.docker.com/r/kunstmaan/bigchaindb/): A base Ubuntu with the latest Bigchain and RethinkDB deamons installed
+* [kunstmaan/bigchaindb:latest](https://hub.docker.com/r/kunstmaan/bigchaindb/): An Alpine Linux with the latest stable Bigchain deamon installed
+* [kunstmaan/bigchaindb:develop](https://hub.docker.com/r/kunstmaan/bigchaindb/): An Alpine Linux with the latest development version of the Bigchain deamon installed
 
 ## Running via docker-compose
 
