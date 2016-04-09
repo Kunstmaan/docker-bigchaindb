@@ -18,3 +18,19 @@ Use this [docker-compose.yml](https://github.com/scorpiovn/docker-bigchaindb/blo
 ```
 sudo docker-compose up
 ```
+
+## Test
+
+```
+docker exec -t -i [containerNameOrId] /bin/sh
+```
+
+```
+$> python3
+>>> from bigchaindb.core import Bigchain
+>>> bigchain = Bigchain()
+>>> print(bigchain.host)
+localhost
+>>> print(bigchain.me)
+<print the public key of the instance>
+```
