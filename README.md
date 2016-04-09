@@ -1,6 +1,6 @@
 # docker-bigchaindb
 
-This is the repository for the kunstmaan/bigchaindb docker image.
+This is the repository for the scorpiovn/bigchaindb docker image.
 
 ## Important!
 
@@ -13,7 +13,7 @@ This is the repository for the kunstmaan/bigchaindb docker image.
 
 ## Running via docker-compose
 
-Use this [docker-compose.yml](https://github.com/Kunstmaan/docker-bigchaindb/blob/master/docker-compose.yml) and run:
+Use this [docker-compose.yml](https://github.com/scorpiovn/docker-bigchaindb/blob/master/docker-compose.yml) and run:
 
 ```
 sudo docker-compose up
