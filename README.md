@@ -1,4 +1,4 @@
-# docker-multichain
+# docker-bigchaindb
 
 This is the repository for the kunstmaan/bigchaindb docker image.
 
