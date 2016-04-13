@@ -1,5 +1,5 @@
-from bigchain import Bigchain
-from bigchaindb import crypto
+from bigchaindb.core import Bigchain
+from bigchaindb.core import crypto
 
 bigchain = Bigchain()
 
