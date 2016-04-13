@@ -34,3 +34,6 @@ localhost
 >>> print(bigchain.me)
 <print the public key of the instance>
 ```
+```bash
+sudo docker run -v $pwd/shared:/usr/src/app/shared -it kunstmaan/bigchaindb:develop /bin/sh
+```
