@@ -10,7 +10,7 @@ services:
       - /data
 
   bigchaindb:
-    image: joseph/bigchaindb:develop
+    image: kunstmaan/bigchaindb:develop
     volumes:
       - ./data/bigchaindb:/root/.bigchaindb_docker
     links:
