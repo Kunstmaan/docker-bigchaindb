@@ -1,7 +1,6 @@
 FROM python:3.5-alpine
 
 COPY run.sh /root/run.sh
-COPY create_tx.py /usr/src/app/create_tx.py
 
 RUN apk --update add --virtual build_deps wget ca-certificates build-base libffi-dev openssl-dev && \
     pip install --upgrade pip && \
@@ -17,4 +16,4 @@ RUN apk --update add --virtual build_deps wget ca-certificates build-base libffi
 
 WORKDIR /usr/src/app
 
-CMD [ "/root/run.sh", "python3", "/usr/src/app/create_tx.py" ]
+CMD [ "/root/run.sh" ]
