@@ -16,4 +16,4 @@ RUN apk --update add --virtual build_deps wget ca-certificates build-base libffi
 
 WORKDIR /usr/src/app
 
-CMD [ "/root/run.sh" ]
+CMD ["/root/run.sh"]
