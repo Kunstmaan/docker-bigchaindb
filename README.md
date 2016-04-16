@@ -1,6 +1,6 @@
-# docker-multichain
+# docker-bigchaindb
 
-This is the repository for the kunstmaan/bigchaindb docker image.
+This is the repository for the scorpiovn/bigchaindb docker image.
 
 ## Important!
 
@@ -13,8 +13,27 @@ This is the repository for the kunstmaan/bigchaindb docker image.
 
 ## Running via docker-compose
 
-Use this [docker-compose.yml](https://github.com/Kunstmaan/docker-bigchaindb/blob/master/docker-compose.yml) and run:
+Use this [docker-compose.yml](https://github.com/scorpiovn/docker-bigchaindb/blob/master/docker-compose.yml) and run:
 
 ```
 sudo docker-compose up
+```
+
+## Test
+
+```
+docker exec -t -i [containerNameOrId] /bin/sh
+```
+
+```
+$> python3
+>>> from bigchaindb.core import Bigchain
+>>> bigchain = Bigchain()
+>>> print(bigchain.host)
+localhost
+>>> print(bigchain.me)
+<print the public key of the instance>
+```
+```bash
+sudo docker run -v $pwd/shared:/usr/src/app/shared -it kunstmaan/bigchaindb:develop /bin/sh
 ```
